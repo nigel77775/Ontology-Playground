@@ -309,7 +309,7 @@
         <rdfs:label>fixes</rdfs:label>
         <rdfs:domain rdf:resource="http://example.org/ontology/fabric-data-quality-ontology/New-entity-2"/>
         <rdfs:range rdf:resource="http://example.org/ontology/fabric-data-quality-ontology/New-entity-6"/>
-        <rdfs:comment>DataOwner fixes pipeline</rdfs:comment>
+        <rdfs:comment>DataEngineer fixes pipeline</rdfs:comment>
         <ont:cardinality>one-to-many</ont:cardinality>
         <ont:fromEntityId>new-entity-2</ont:fromEntityId>
         <ont:toEntityId>new-entity-6</ont:toEntityId>
@@ -336,7 +336,7 @@
     </owl:ObjectProperty>
 
     <owl:ObjectProperty rdf:about="http://example.org/ontology/fabric-data-quality-ontology/rel-relates-to-3">
-        <rdfs:label>Impacts</rdfs:label>
+        <rdfs:label>impacts</rdfs:label>
         <rdfs:domain rdf:resource="http://example.org/ontology/fabric-data-quality-ontology/New-entity-3"/>
         <rdfs:range rdf:resource="http://example.org/ontology/fabric-data-quality-ontology/New-entity-5"/>
         <rdfs:comment>Data quality issue impacts one or more data assets</rdfs:comment>
